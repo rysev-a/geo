@@ -1,5 +1,12 @@
-export interface School {
+export interface MapLayer {
   id: number;
   name: string;
-  coordinates: object;
+}
+
+export interface MapElement {
+  id: number;
+  name: string;
+  latitude: string;
+  longitude: string;
+  layer: MapLayer;
 }

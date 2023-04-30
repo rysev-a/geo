@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = {
-  loadSchools: () => axios.get("/api/schools/schools"),
+  loadElements: () => axios.get("/api/map/elements"),
 };
 
 export default api;

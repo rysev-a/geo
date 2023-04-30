@@ -1,0 +1,8 @@
+/backend/.idea
+/backend/geo/settings.py
+
+__pycache__/
+*.py[cod]
+
+/frontend/.idea
+/frontend/node_modules

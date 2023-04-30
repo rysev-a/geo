@@ -1,12 +1,12 @@
 import NavBar from "components/NavBar.tsx";
-import Schools from "modules/Schools.tsx";
+import MapView from "modules/Map.tsx";
 
 function App() {
   return (
     <main>
       <section>
         <NavBar />
-        <Schools />
+        <MapView />
       </section>
     </main>
   );
