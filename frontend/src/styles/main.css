@@ -1,0 +1,7 @@
+.map {
+    grid-area: main;
+    width: 100%;
+    padding-right: 30px;
+    margin: 0 auto 40px auto;
+    overflow: auto;
+}
